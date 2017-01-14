@@ -3,7 +3,58 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AngularFrontEnd", "AngularFrontEnd\", "{78A36ED6-205B-4012-8254-B8132A7A1721}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_14346"
+		Debug.AspNetCompiler.PhysicalPath = "AngularFrontEnd\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_14346\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_14346"
+		Release.AspNetCompiler.PhysicalPath = "AngularFrontEnd\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_14346\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "14346"
+		SlnRelativePath = "AngularFrontEnd\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "KnockoutFrontEnd", "KnockoutFrontEnd\", "{06C99EDE-7BB6-4C63-ADBD-31E64642F0D8}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_14368"
+		Debug.AspNetCompiler.PhysicalPath = "KnockoutFrontEnd\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_14368\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_14368"
+		Release.AspNetCompiler.PhysicalPath = "KnockoutFrontEnd\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_14368\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "14368"
+		SlnRelativePath = "KnockoutFrontEnd\"
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78A36ED6-205B-4012-8254-B8132A7A1721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A36ED6-205B-4012-8254-B8132A7A1721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C99EDE-7BB6-4C63-ADBD-31E64642F0D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C99EDE-7BB6-4C63-ADBD-31E64642F0D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
